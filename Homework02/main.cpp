@@ -1,4 +1,9 @@
-﻿#include <iostream>
+﻿// ----------------------------------------------------------------------------
+// Gregory Norz – COSC 1436 – Summer 2023 (10-week session)
+// Homework 02 – June 24, 2023
+// ----------------------------------------------------------------------------
+
+#include <iostream>
 #include <iomanip>
 #include <cmath>
 
