@@ -7,6 +7,7 @@
 #include <regex>
 #include <fstream>
 #include <sstream>
+#include <map>
 
 // ----------------------------------------------------------------------------
 //
@@ -34,7 +35,7 @@ std::map<std::string, std::string> replacementMap;
 void LoadAbbreviationMap()
 {
     // Assumes the .txt file is in the local directory with the executable.
-    std::ifstream abbrFile( "abbreviations.txt" );
+    std::ifstream abbrFile( "./abbreviations.txt" );
 
     if ( !abbrFile.is_open() )
     {

@@ -22,4 +22,4 @@ float SurfaceAreaCylinder( float radius, float height );
 float VolDonut( float innerRadius, float outerRadius );
 float SurfaceAreaDonut( float innerRadius, float outerRadius );
 
-#endif GEOMETRY_HPP
+#endif // GEOMETRY_HPP
